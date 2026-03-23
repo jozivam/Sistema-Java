@@ -1,0 +1,10 @@
+{
+  "name": "sistema-financeiro-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MVP web para automação de planilhas financeiras empresariais",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  }
+}

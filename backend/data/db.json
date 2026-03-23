@@ -1,0 +1,349 @@
+{
+  "imports": [
+    {
+      "id": "57e4dad9-55c5-4ae0-822a-ac7ed888ec3e",
+      "fileName": "teste.xlsx",
+      "importedAt": "2026-03-23T16:38:22.645Z",
+      "totalSheets": 1,
+      "totalRows": 2,
+      "hash": "10c6e0fc05c0b7a934805f831063f772ea22f9a5",
+      "columnMapping": {}
+    },
+    {
+      "id": "seed-import",
+      "fileName": "base-exemplo-financeira.xlsx",
+      "importedAt": "2026-03-23T16:37:50.596Z",
+      "totalSheets": 4,
+      "totalRows": 10,
+      "hash": "3caf9fd7b09e7d404f9953c51ae5e1f97932418b"
+    }
+  ],
+  "lancamentos": [
+    {
+      "id": "e981297a-6ac6-4bd4-9cb0-95875ac9b941",
+      "data": "2026-03-01",
+      "competencia": "2026-03",
+      "contaFinanceira": "BB Conta Movimento",
+      "centroCusto": "Administração",
+      "classificacao": "Receita Operacional",
+      "descricao": "Recebimento teste",
+      "valor": 1500,
+      "tipo": "receita",
+      "origem": "importado",
+      "origemRecebimento": "BB",
+      "referencia": "",
+      "importacaoId": "57e4dad9-55c5-4ae0-822a-ac7ed888ec3e",
+      "createdAt": "2026-03-23T16:38:22.645Z",
+      "sheetName": "teste.xlsx"
+    },
+    {
+      "id": "2dc22f68-abfe-4fbf-8f50-d8be00ad3966",
+      "data": "2026-03-02",
+      "competencia": "2026-03",
+      "contaFinanceira": "BB Conta Movimento",
+      "centroCusto": "Administração",
+      "classificacao": "Tarifas Bancárias",
+      "descricao": "Tarifa teste",
+      "valor": 10,
+      "tipo": "despesa",
+      "origem": "importado",
+      "origemRecebimento": "BB",
+      "referencia": "",
+      "importacaoId": "57e4dad9-55c5-4ae0-822a-ac7ed888ec3e",
+      "createdAt": "2026-03-23T16:38:22.645Z",
+      "sheetName": "teste.xlsx"
+    },
+    {
+      "id": "seed-1",
+      "data": "2025-07-04",
+      "competencia": "2025-07",
+      "contaFinanceira": "BB Conta Movimento",
+      "centroCusto": "Administração",
+      "classificacao": "Receita Operacional",
+      "descricao": "Particular",
+      "valor": 190607.08,
+      "tipo": "receita",
+      "origem": "importado",
+      "origemRecebimento": "BB",
+      "referencia": "REF-1",
+      "importacaoId": "seed-import",
+      "createdAt": "2026-03-23T16:37:50.595Z"
+    },
+    {
+      "id": "seed-2",
+      "data": "2025-07-15",
+      "competencia": "2025-07",
+      "contaFinanceira": "Bradesco Operacional",
+      "centroCusto": "Enfermagem",
+      "classificacao": "Pessoal",
+      "descricao": "Férias colaboradoras",
+      "valor": 5189.46,
+      "tipo": "despesa",
+      "origem": "importado",
+      "origemRecebimento": "Bradesco",
+      "referencia": "REF-2",
+      "importacaoId": "seed-import",
+      "createdAt": "2026-03-23T16:37:50.596Z"
+    },
+    {
+      "id": "seed-3",
+      "data": "2025-08-04",
+      "competencia": "2025-08",
+      "contaFinanceira": "Sicoob Recebimentos",
+      "centroCusto": "Administração",
+      "classificacao": "Tarifas Bancárias",
+      "descricao": "Tarifa bancária",
+      "valor": 252,
+      "tipo": "despesa",
+      "origem": "importado",
+      "origemRecebimento": "Sicoob",
+      "referencia": "REF-3",
+      "importacaoId": "seed-import",
+      "createdAt": "2026-03-23T16:37:50.596Z"
+    },
+    {
+      "id": "seed-4",
+      "data": "2025-08-20",
+      "competencia": "2025-08",
+      "contaFinanceira": "BB Conta Movimento",
+      "centroCusto": "Centro Cirúrgico",
+      "classificacao": "Material Hospitalar e Medicamentos",
+      "descricao": "Foco cirúrgico de teto",
+      "valor": 6300,
+      "tipo": "despesa",
+      "origem": "importado",
+      "origemRecebimento": "BB",
+      "referencia": "REF-4",
+      "importacaoId": "seed-import",
+      "createdAt": "2026-03-23T16:37:50.596Z"
+    },
+    {
+      "id": "seed-5",
+      "data": "2025-09-05",
+      "competencia": "2025-09",
+      "contaFinanceira": "Caixa Interno",
+      "centroCusto": "Serviço de Nutrição e Dietética",
+      "classificacao": "Receita Operacional",
+      "descricao": "Recebimento em caixa",
+      "valor": 7982.5,
+      "tipo": "receita",
+      "origem": "importado",
+      "origemRecebimento": "Caixa",
+      "referencia": "REF-5",
+      "importacaoId": "seed-import",
+      "createdAt": "2026-03-23T16:37:50.596Z"
+    },
+    {
+      "id": "seed-6",
+      "data": "2025-09-29",
+      "competencia": "2025-09",
+      "contaFinanceira": "Sicoob Recebimentos",
+      "centroCusto": "CAF",
+      "classificacao": "Material Hospitalar e Medicamentos",
+      "descricao": "Mat/med hospitalar",
+      "valor": 3325.5,
+      "tipo": "despesa",
+      "origem": "importado",
+      "origemRecebimento": "Sicoob",
+      "referencia": "REF-6",
+      "importacaoId": "seed-import",
+      "createdAt": "2026-03-23T16:37:50.596Z"
+    },
+    {
+      "id": "seed-7",
+      "data": "2025-10-06",
+      "competencia": "2025-10",
+      "contaFinanceira": "BB Conta Movimento",
+      "centroCusto": "Administração",
+      "classificacao": "Pessoal",
+      "descricao": "Folha de pagamento",
+      "valor": 190658.83,
+      "tipo": "despesa",
+      "origem": "importado",
+      "origemRecebimento": "BB",
+      "referencia": "REF-7",
+      "importacaoId": "seed-import",
+      "createdAt": "2026-03-23T16:37:50.596Z"
+    },
+    {
+      "id": "seed-8",
+      "data": "2025-10-27",
+      "competencia": "2025-10",
+      "contaFinanceira": "Bradesco Operacional",
+      "centroCusto": "Administração",
+      "classificacao": "Receita Operacional",
+      "descricao": "Recebimento SUS",
+      "valor": 631599.9,
+      "tipo": "receita",
+      "origem": "importado",
+      "origemRecebimento": "Bradesco",
+      "referencia": "REF-8",
+      "importacaoId": "seed-import",
+      "createdAt": "2026-03-23T16:37:50.596Z"
+    },
+    {
+      "id": "seed-9",
+      "data": "2026-01-30",
+      "competencia": "2026-01",
+      "contaFinanceira": "BB Conta Movimento",
+      "centroCusto": "Administração",
+      "classificacao": "Parcelamentos",
+      "descricao": "Parcelamento tributos federais",
+      "valor": 1123.58,
+      "tipo": "despesa",
+      "origem": "importado",
+      "origemRecebimento": "BB",
+      "referencia": "REF-9",
+      "importacaoId": "seed-import",
+      "createdAt": "2026-03-23T16:37:50.596Z"
+    },
+    {
+      "id": "seed-10",
+      "data": "2026-02-27",
+      "competencia": "2026-02",
+      "contaFinanceira": "Sicoob Recebimentos",
+      "centroCusto": "Administração",
+      "classificacao": "Receita Operacional",
+      "descricao": "Recebimento Servir",
+      "valor": 1939642.24,
+      "tipo": "receita",
+      "origem": "importado",
+      "origemRecebimento": "Sicoob",
+      "referencia": "REF-10",
+      "importacaoId": "seed-import",
+      "createdAt": "2026-03-23T16:37:50.596Z"
+    }
+  ],
+  "classificacoes": [
+    {
+      "id": "cls-001",
+      "codigo": "102",
+      "nome": "Receita Operacional",
+      "categoria": "Receitas",
+      "subcategoria": "Receitas Assistenciais",
+      "tipo": "receita"
+    },
+    {
+      "id": "cls-002",
+      "codigo": "130",
+      "nome": "Receitas Não Operacionais",
+      "categoria": "Receitas",
+      "subcategoria": "Aplicações e Aluguéis",
+      "tipo": "receita"
+    },
+    {
+      "id": "cls-003",
+      "codigo": "200",
+      "nome": "Pessoal",
+      "categoria": "Despesas",
+      "subcategoria": "Folha e Encargos",
+      "tipo": "despesa"
+    },
+    {
+      "id": "cls-004",
+      "codigo": "240",
+      "nome": "Material Hospitalar e Medicamentos",
+      "categoria": "Despesas",
+      "subcategoria": "Suprimentos",
+      "tipo": "despesa"
+    },
+    {
+      "id": "cls-005",
+      "codigo": "422",
+      "nome": "Tarifas Bancárias",
+      "categoria": "Despesas",
+      "subcategoria": "Bancárias",
+      "tipo": "despesa"
+    }
+  ],
+  "contasFinanceiras": [
+    {
+      "id": "cta-001",
+      "nome": "BB Conta Movimento",
+      "banco": "BB",
+      "tipo": "banco"
+    },
+    {
+      "id": "cta-002",
+      "nome": "Bradesco Operacional",
+      "banco": "Bradesco",
+      "tipo": "banco"
+    },
+    {
+      "id": "cta-003",
+      "nome": "Sicoob Recebimentos",
+      "banco": "Sicoob",
+      "tipo": "banco"
+    },
+    {
+      "id": "cta-004",
+      "nome": "Caixa Interno",
+      "banco": "Caixa",
+      "tipo": "caixa"
+    }
+  ],
+  "centrosCusto": [
+    {
+      "id": "cc-001",
+      "nome": "Administração"
+    },
+    {
+      "id": "cc-002",
+      "nome": "Centro Cirúrgico"
+    },
+    {
+      "id": "cc-003",
+      "nome": "CAF"
+    },
+    {
+      "id": "cc-004",
+      "nome": "Gestão de Pessoas"
+    }
+  ],
+  "conciliacoes": [
+    {
+      "id": "816c507f-feae-4352-97ad-5e044b9f734f",
+      "periodo": "2026-03",
+      "banco": "Banco consolidado",
+      "valorExtrato": 1519.8,
+      "valorSistema": 1490,
+      "diferenca": 29.8,
+      "status": "Divergente"
+    },
+    {
+      "id": "conc-1",
+      "periodo": "2026-02",
+      "banco": "BB",
+      "valorExtrato": 2665736.02,
+      "valorSistema": 2570710.71,
+      "diferenca": 95025.31,
+      "status": "Divergente"
+    },
+    {
+      "id": "conc-2",
+      "periodo": "2026-02",
+      "banco": "Sicoob",
+      "valorExtrato": 611344.1,
+      "valorSistema": 611344.1,
+      "diferenca": 0,
+      "status": "Conciliado"
+    },
+    {
+      "id": "conc-3",
+      "periodo": "2026-01",
+      "banco": "Bradesco",
+      "valorExtrato": 16163.38,
+      "valorSistema": 16163.38,
+      "diferenca": 0,
+      "status": "Conciliado"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "usr-001",
+      "nome": "Administrador",
+      "email": "admin@empresa.local",
+      "perfil": "admin"
+    }
+  ]
+}
